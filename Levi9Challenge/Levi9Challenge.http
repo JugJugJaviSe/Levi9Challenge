@@ -1,0 +1,6 @@
+@Levi9Challenge_HostAddress = http://localhost:5020
+
+GET {{Levi9Challenge_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

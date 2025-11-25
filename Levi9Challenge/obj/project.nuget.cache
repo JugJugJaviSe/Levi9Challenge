@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PMPZf7CSocg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Levi9Challenge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jugov\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.8\\microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "C:\\Users\\jugov\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
