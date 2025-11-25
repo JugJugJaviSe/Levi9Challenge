@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|c:\\users\\jugov\\documents\\prog\\prakse\\levi9challenge\\levi9challenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|solutionrelative:levi9challenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|c:\\users\\jugov\\documents\\prog\\prakse\\levi9challenge\\levi9challenge\\controllers\\canteencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|solutionrelative:levi9challenge\\controllers\\canteencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|c:\\users\\jugov\\documents\\prog\\prakse\\levi9challenge\\levi9challenge\\services\\implementations\\canteenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|solutionrelative:levi9challenge\\services\\implementations\\canteenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|c:\\users\\jugov\\documents\\prog\\prakse\\levi9challenge\\levi9challenge\\services\\interfaces\\icanteenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|solutionrelative:levi9challenge\\services\\interfaces\\icanteenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|c:\\users\\jugov\\documents\\prog\\prakse\\levi9challenge\\levi9challenge\\repositories\\interfaces\\icanteenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|solutionrelative:levi9challenge\\repositories\\interfaces\\icanteenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|c:\\users\\jugov\\documents\\prog\\prakse\\levi9challenge\\levi9challenge\\repositories\\implementations\\canteenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|solutionrelative:levi9challenge\\repositories\\implementations\\canteenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,7 +29,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 82,
+          "DockedWidth": 263,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -27,14 +43,72 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Program.cs",
-              "RelativeDocumentMoniker": "Levi9Challenge\\Program.cs",
-              "ToolTip": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Program.cs",
-              "RelativeToolTip": "Levi9Challenge\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CanteenController.cs",
+              "DocumentMoniker": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Controllers\\CanteenController.cs",
+              "RelativeDocumentMoniker": "Levi9Challenge\\Controllers\\CanteenController.cs",
+              "ToolTip": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Controllers\\CanteenController.cs",
+              "RelativeToolTip": "Levi9Challenge\\Controllers\\CanteenController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAQwHIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:57:13.241Z",
+              "WhenOpened": "2025-11-25T19:17:42.369Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 45,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CanteenService.cs",
+              "DocumentMoniker": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Services\\Implementations\\CanteenService.cs",
+              "RelativeDocumentMoniker": "Levi9Challenge\\Services\\Implementations\\CanteenService.cs",
+              "ToolTip": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Services\\Implementations\\CanteenService.cs",
+              "RelativeToolTip": "Levi9Challenge\\Services\\Implementations\\CanteenService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T21:16:19.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICanteenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Repositories\\Interfaces\\ICanteenRepository.cs",
+              "RelativeDocumentMoniker": "Levi9Challenge\\Repositories\\Interfaces\\ICanteenRepository.cs",
+              "ToolTip": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Repositories\\Interfaces\\ICanteenRepository.cs",
+              "RelativeToolTip": "Levi9Challenge\\Repositories\\Interfaces\\ICanteenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T22:18:51.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CanteenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Repositories\\Implementations\\CanteenRepository.cs",
+              "RelativeDocumentMoniker": "Levi9Challenge\\Repositories\\Implementations\\CanteenRepository.cs",
+              "ToolTip": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Repositories\\Implementations\\CanteenRepository.cs",
+              "RelativeToolTip": "Levi9Challenge\\Repositories\\Implementations\\CanteenRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T22:18:53.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICanteenService.cs",
+              "DocumentMoniker": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Services\\Interfaces\\ICanteenService.cs",
+              "RelativeDocumentMoniker": "Levi9Challenge\\Services\\Interfaces\\ICanteenService.cs",
+              "ToolTip": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Services\\Interfaces\\ICanteenService.cs",
+              "RelativeToolTip": "Levi9Challenge\\Services\\Interfaces\\ICanteenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T22:22:37.002Z",
               "EditorCaption": ""
             }
           ]

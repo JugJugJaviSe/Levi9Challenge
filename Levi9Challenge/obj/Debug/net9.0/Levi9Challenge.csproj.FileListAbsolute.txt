@@ -31,3 +31,4 @@ C:\Users\jugov\Documents\prog\Prakse\Levi9Challenge\Levi9Challenge\obj\Debug\net
 C:\Users\jugov\Documents\prog\Prakse\Levi9Challenge\Levi9Challenge\obj\Debug\net9.0\Levi9Challenge.pdb
 C:\Users\jugov\Documents\prog\Prakse\Levi9Challenge\Levi9Challenge\obj\Debug\net9.0\Levi9Challenge.genruntimeconfig.cache
 C:\Users\jugov\Documents\prog\Prakse\Levi9Challenge\Levi9Challenge\obj\Debug\net9.0\ref\Levi9Challenge.dll
+C:\Users\jugov\Documents\prog\Prakse\Levi9Challenge\Levi9Challenge\obj\Debug\net9.0\Levi9Challenge.sourcelink.json

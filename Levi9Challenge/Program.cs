@@ -1,4 +1,9 @@
 
+using Levi9Challenge.Repositories.Implementations;
+using Levi9Challenge.Repositories.Interfaces;
+using Levi9Challenge.Services.Implementations;
+using Levi9Challenge.Services.Interfaces;
+
 namespace Levi9Challenge
 {
     public class Program
@@ -10,6 +15,12 @@ namespace Levi9Challenge
             // Add services to the container.
 
             builder.Services.AddControllers();
+
+            builder.Services.AddSingleton<IStudentRepository, StudentRepository>();
+            builder.Services.AddSingleton<ICanteenRepository, CanteenRepository>();
+
+            builder.Services.AddSingleton<ICanteenService, CanteenService>();
+
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
 
@@ -21,7 +32,7 @@ namespace Levi9Challenge
                 app.MapOpenApi();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseAuthorization();
 
