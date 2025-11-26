@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|c:\\users\\jugov\\documents\\prog\\prakse\\levi9challenge\\levi9challenge\\services\\implementations\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|solutionrelative:levi9challenge\\services\\implementations\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|c:\\users\\jugov\\documents\\prog\\prakse\\levi9challenge\\levi9challenge\\repositories\\implementations\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|solutionrelative:levi9challenge\\repositories\\implementations\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|c:\\users\\jugov\\documents\\prog\\prakse\\levi9challenge\\levi9challenge\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B413D64A-2112-4FF6-B340-86C13C7C5514}|Levi9Challenge\\Levi9Challenge.csproj|solutionrelative:levi9challenge\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 173,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,45 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReservationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Repositories\\Implementations\\ReservationRepository.cs",
-              "RelativeDocumentMoniker": "Levi9Challenge\\Repositories\\Implementations\\ReservationRepository.cs",
-              "ToolTip": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Repositories\\Implementations\\ReservationRepository.cs",
-              "RelativeToolTip": "Levi9Challenge\\Repositories\\Implementations\\ReservationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T19:28:53.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReservationService.cs",
-              "DocumentMoniker": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Services\\Implementations\\ReservationService.cs",
-              "RelativeDocumentMoniker": "Levi9Challenge\\Services\\Implementations\\ReservationService.cs",
-              "ToolTip": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Services\\Implementations\\ReservationService.cs*",
-              "RelativeToolTip": "Levi9Challenge\\Services\\Implementations\\ReservationService.cs*",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAvwFkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T19:28:59.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReservationController.cs",
-              "DocumentMoniker": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Controllers\\ReservationController.cs",
-              "RelativeDocumentMoniker": "Levi9Challenge\\Controllers\\ReservationController.cs",
-              "ToolTip": "C:\\Users\\jugov\\Documents\\prog\\Prakse\\Levi9Challenge\\Levi9Challenge\\Controllers\\ReservationController.cs",
-              "RelativeToolTip": "Levi9Challenge\\Controllers\\ReservationController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T19:28:47.477Z",
-              "EditorCaption": ""
             }
           ]
         }

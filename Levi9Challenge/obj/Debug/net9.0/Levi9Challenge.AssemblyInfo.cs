@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Levi9Challenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9171b9586d7de4a6213b09fd3696a4b5d0b69f0d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87e0ce8aa8378c35b9cddd5d394757c06d2ec3b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Levi9Challenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Levi9Challenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
