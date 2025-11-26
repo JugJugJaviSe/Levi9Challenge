@@ -6,5 +6,6 @@ namespace Levi9Challenge.Repositories.Interfaces
     {
         Student Create(Student student);
         Student? GetById(string studentId);
+        Student? GetByEmail(string email);
     }
 }

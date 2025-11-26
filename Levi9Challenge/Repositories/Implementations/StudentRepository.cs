@@ -23,5 +23,10 @@ namespace Levi9Challenge.Repositories.Implementations
             return _students.FirstOrDefault(s => s.Id.Equals(studentId));
         }
 
+        public Student? GetByEmail(string email)
+        {
+            return _students.FirstOrDefault(s => s.Email.Equals(email));
+        }
+
     }
 }

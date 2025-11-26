@@ -18,8 +18,11 @@ namespace Levi9Challenge
 
             builder.Services.AddSingleton<IStudentRepository, StudentRepository>();
             builder.Services.AddSingleton<ICanteenRepository, CanteenRepository>();
+            builder.Services.AddSingleton<IReservationRepository, ReservationRepository>();
 
+            builder.Services.AddSingleton<IStudentService, StudentService>();
             builder.Services.AddSingleton<ICanteenService, CanteenService>();
+            builder.Services.AddSingleton<IReservationService, ReservationService>();
 
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();

@@ -130,11 +130,37 @@ namespace Levi9Challenge.Controllers
     [FromQuery] DateTime endDate,
     [FromQuery] TimeSpan startTime,
     [FromQuery] TimeSpan endTime,
-    [FromQuery] int durationMinutes)
+    [FromQuery] int duration)
         {
 
-            return NotFound();
+            if (duration != 30 && duration != 60)
+                return BadRequest("Duration must be 30 or 60 minutes.");
+
+            var status = _canteenService.GetAllCanteensStatus(startDate, endDate, startTime, endTime, duration);
+
+            return Ok(status);
         }
+
+        [HttpGet("{id}/status")]
+        public ActionResult<CanteenStatusDto> GetCanteenStatus(
+    int id,
+    [FromQuery] DateTime startDate,
+    [FromQuery] DateTime endDate,
+    [FromQuery] TimeSpan startTime,
+    [FromQuery] TimeSpan endTime,
+    [FromQuery] int duration)
+        {
+            if (duration != 30 && duration != 60)
+                return BadRequest("Duration must be 30 or 60 minutes.");
+
+            var status = _canteenService.GetCanteenStatus(id, startDate, endDate, startTime, endTime, duration);
+
+            if (status == null)
+                return NotFound();
+
+            return Ok(status);
+        }
+
 
     }
 }

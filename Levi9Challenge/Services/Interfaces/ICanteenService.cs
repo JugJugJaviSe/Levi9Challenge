@@ -11,5 +11,18 @@ namespace Levi9Challenge.Services.Interfaces
         Canteen GetById(string id);
         Canteen Update(CanteenDto canteen, string studentId);
         bool Delete(string canteenId, string studentId);
+        public List<CanteenStatusDto> GetAllCanteensStatus(
+    DateTime startDate,
+    DateTime endDate,
+    TimeSpan startTime,
+    TimeSpan endTime,
+    int durationMinutes);
+        CanteenStatusDto GetCanteenStatus(
+    int id,
+    DateTime startDate,
+    DateTime endDate,
+    TimeSpan startTime,
+    TimeSpan endTime,
+    int durationMinutes);
     }
 }

@@ -4,7 +4,7 @@ namespace Levi9Challenge.Models
 {
     public class Student
     {
-        public string? Id { get; set; }
+        public string? Id { get; set; } = string.Empty;
 
         [JsonPropertyName("name")]
         public string Name { get; set; }

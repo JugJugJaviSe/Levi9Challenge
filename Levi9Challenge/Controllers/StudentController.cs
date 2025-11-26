@@ -1,5 +1,6 @@
 ﻿using Levi9Challenge.Models;
 using Levi9Challenge.Repositories.Interfaces;
+using Levi9Challenge.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Levi9Challenge.Controllers
@@ -8,16 +9,23 @@ namespace Levi9Challenge.Controllers
     [Route("students")]
     public class StudentController : ControllerBase
     {
-        private readonly IStudentRepository _studentRepo;
+        private readonly IStudentService _studentService;
 
-        public StudentController(IStudentRepository studentRepo) { _studentRepo = studentRepo; }
+        public StudentController(IStudentService studentService) { _studentService = studentService; }
 
         [HttpPost]
         public ActionResult<Student> CreateStudent([FromBody] Student student)
         {
             try
             {
-                var created = _studentRepo.Create(student);
+                
+                var created = _studentService.Create(student);
+
+                if (created == null)
+                {
+                    return Conflict(new { message = "A student with this email already exists." });
+                }
+
                 return Created("", created);
             }
             catch (Exception ex)
@@ -31,7 +39,7 @@ namespace Levi9Challenge.Controllers
         {
             try
             {
-                var student = _studentRepo.GetById(id);
+                var student = _studentService.GetById(id);
 
                 if(student == null)
                 {

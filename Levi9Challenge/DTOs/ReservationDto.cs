@@ -1,11 +1,14 @@
-﻿using System.Text.Json.Serialization;
+﻿using Levi9Challenge.Models;
+using System.Text.Json.Serialization;
 
-namespace Levi9Challenge.Models
+namespace Levi9Challenge.DTOs
 {
-    public enum ReservationState { Active, Cancelled }
-    public class Reservation
+    public class ReservationDto
     {
         public string Id { get; set; } = string.Empty;
+
+        [JsonPropertyName("status")]
+        public string Status { get; set; } = string.Empty;
 
         [JsonPropertyName("studentId")]
         public string StudentId { get; set; }
@@ -14,15 +17,13 @@ namespace Levi9Challenge.Models
         public string CanteenId { get; set; }
 
         [JsonPropertyName("date")]
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
 
         [JsonPropertyName("time")]
-        public TimeSpan Time { get; set; }
+        public string Time { get; set; }
 
         [JsonPropertyName("duration")]
         public int Duration { get; set; }
 
-        [JsonPropertyName("status")]
-        public ReservationState Status { get; set; } = ReservationState.Active;
     }
 }
